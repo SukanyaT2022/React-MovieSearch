@@ -1,0 +1,25 @@
+.main-flexBox{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 20px;
+}
+
+.smallBox{
+width: 20%;
+height: 100px;
+text-align: center;
+
+
+}
+.smallBox img{
+    width: 100%;
+height: 200px;
+object-fit:contain ;
+position: top center;
+
+
+}
+.wholePage h4{
+    text-align: center;
+}
