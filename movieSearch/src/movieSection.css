@@ -13,13 +13,26 @@ text-align: center;
 
 }
 .smallBox img{
-    width: 100%;
+width: 100%;
 height: 200px;
 object-fit:contain ;
 position: top center;
 
 
 }
+
+
 .wholePage h4{
     text-align: center;
+}
+
+
+/* section1 super hero movies--mainbox */
+.section1-superHero{
+    margin-top: 100px; 
+}
+
+/* section2 children movies--mainbox */
+.section2-children{
+margin-top: 300px; 
 }
