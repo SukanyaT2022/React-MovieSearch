@@ -11,7 +11,7 @@ function MovieSection() {
         <div class="main-flexBox">
           {/* 
         //below here we make pattern of data connect to json */}
-          {myData.superHeroMovie.map((value, index) => {
+          {myData.superHeroMovie.map((value) => {
             return (
         
               <div class="smallBox">

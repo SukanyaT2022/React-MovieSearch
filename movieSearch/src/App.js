@@ -9,7 +9,6 @@ function App() {
   const message = "yourName"
   const message2 = "message Two"
   const message3 = "message Three"
-
   const parent = () =>{
     alert("This is parents")
   }
