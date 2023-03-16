@@ -3,29 +3,23 @@ import './movieSection.css';
 //below contact to jason to add more movie
 import myData from './movie.json';
 
-function MovieSection() {
+function MovieSection(props) {
   return (
     <div class="wholePage">
       <div class="section1-superHero">
-        <h4>Super Hero Movies</h4>
+        <h4>Super Hero Movies {props.searchMovieText}</h4>
         <div class="main-flexBox">
           {/* 
         //below here we make pattern of data connect to json */}
           {myData.superHeroMovie.map((value) => {
             return (
-        
               <div class="smallBox">
                 <h4>{value.movieName}</h4>
-                <img src = {value.image} />
+                <img src={value.image} />
                 <p>{value.Genre}</p>
               </div>
             );
           })}
-
-
-
-
-
 
           {/* <div class="smallBox">
 <h4>Iron Man</h4>
@@ -59,18 +53,15 @@ function MovieSection() {
         <h4>Action Movies</h4>
 
         <div class="main-flexBox">
-        {myData.actionMovie.map((value, index) => {
+          {myData.actionMovie.map((value, index) => {
             return (
-        
               <div class="smallBox">
                 <h4>{value.movieName}</h4>
-                <img src = {value.image} />
+                <img src={value.image} />
                 <p>{value.Genre}</p>
               </div>
             );
           })}
-
-
 
           {/* <div class="smallBox">
             <h4>James Bond</h4>
